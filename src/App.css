@@ -1,0 +1,72 @@
+:root{
+  --primary :red;
+  --secondary :blue;
+}
+* {
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+  font: 1em sans-serif;
+}
+body{
+  background-color: rgb(1, 1, 1);
+}
+.App{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 50vh;
+
+}
+.calculator{
+  width: 100%;
+  max-width: 400px;
+  background-color: aliceblue;
+  border-radius: 30px;
+  
+  padding: 25px;
+}
+.display{
+  
+  text-align: right;
+  font-size: 40px;
+}
+button{
+  font-weight: 700;
+  padding: 20px 40px ;
+  font-size: 28px;
+  border: 0ch;
+  background-color: aliceblue;
+  border-radius: 10px;
+}
+button:hover{
+  background-color: rgb(154, 219, 228);
+}
+.operators button:hover{
+  background-color: rgb(188, 187, 184);
+}
+.operators button{
+  color: rgb(252, 19, 11);
+  font-size: 30px;
+  font-weight: 300;
+  padding: 25px 35px;
+  border: 0cm;
+  border-radius: 10px;
+  background-color: aliceblue;
+}
+span{
+  padding: 10px;
+}
+h1{
+  color: aliceblue;
+  padding: 20px 50px;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 30px;
+}
+h2{
+  color: #2ed5fb;
+  text-align: center;
+  padding: 20px 50px;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
+}
